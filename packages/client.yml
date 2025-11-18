@@ -48,6 +48,7 @@ tesla_ble_vehicle:
     name: "Odometer"
     filters:
       - multiply: 0.01 # Odometer is in hundredths of a mile (can use this to convert to km)
+      - multiply: 0.621371
   charge_current:
     id: "charge_current"
     name: "Charge current"
