@@ -86,14 +86,6 @@ tesla_ble_vehicle:
   charging_state:
     id: "charging_state"
     name: "Charging state"
-    device_class: enum
-    options:
-      - starting
-      - charging
-      - stopped
-      - complete
-      - disconnected
-      - no_power
   last_update:
     name: "Last update"
   is_climate_on:
