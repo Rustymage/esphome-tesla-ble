@@ -3,12 +3,12 @@ substitutions:
   board: "esp32dev"   # defaults
   variant: "ESP32"
   flash_size: "4MB"
-  BLE_library: "https://github.com/PedroKTFC/tesla-ble.git"
-  tesla_ble_component: "github://PedroKTFC/esphome-tesla-ble"
+  BLE_library: "https://github.com/Rustymage/tesla-ble.git"
+  tesla_ble_component: "github://Rustymage/esphome-tesla-ble"
 
 esphome:
   project:
-    name: PedroKTFC.esphome-tesla-ble
+    name: Rustymage.esphome-tesla-ble
     version: "2025.9.1"
   name: ${device_name}
   name_add_mac_suffix: false
