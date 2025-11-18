@@ -3,7 +3,7 @@ substitutions:
   board: "esp32dev"   # defaults
   variant: "ESP32"
   flash_size: "4MB"
-  BLE_library: "https://github.com/Rustymage/tesla-ble.git"
+  BLE_library: "https://github.com/PedroKTFC/tesla-ble.git"
   tesla_ble_component: "github://Rustymage/esphome-tesla-ble"
 
 esphome:
