@@ -44,6 +44,14 @@ tesla_ble_vehicle:
   charge_state:
     id: "charge_state"
     name: "Charge level"
+    options:
+      - starting
+      - charging
+      - stopped
+      - complete
+      - disconnected
+      - no_power
+device_class: enum
   odometer:
     name: "Odometer"
     filters:
