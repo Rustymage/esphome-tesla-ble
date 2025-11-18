@@ -57,6 +57,9 @@ tesla_ble_vehicle:
   charge_power:
     id: "charge_power"
     name: "Charge power"
+    device_class: power
+    state_class: measurement
+    unit_of_measurement: "kW"
   charge_energy_added:
     id: "charge_energy_added"
     name: "Charge energy added"
